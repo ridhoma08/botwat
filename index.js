@@ -28,9 +28,9 @@ const start = async (CR4R = new Client()) => {
         // Hilangkan tanda // jika ingin mengaktifkan fiturnya
         //fitur out otomatis
         CR4R.onAddedToGroup(((chat) => {
-            CR4R.sendText(chat.id, `Halo om, kalo mau masukin saya (bot) ke grub, silahkan hubungi wa.me/6282237416678. eeittts gak gratis ya :) (donasi seiklasnya min.5k) bye bye :p`).then(() => CR4R.leaveGroup(chat.id)).then(() => CR4R.deleteChat(chat.id))
+            CR4R.sendText(chat.id, `Halo om, kalo mau masukin saya (bot) ke grub, silahkan hubungi wa.me/628998839509. eeittts gak gratis ya :) (donasi seiklasnya min.5k) bye bye :p`).then(() => CR4R.leaveGroup(chat.id)).then(() => CR4R.deleteChat(chat.id))
             // let totalMem = chat.groupMetadata.participants.length
-            // if (totalMem < 30) { 
+            // if (totalMem < 5) { 
             // 	CR4R.sendText(chat.id, `Cih member nya cuma ${totalMem}, Kalo mau invite bot, minimal jumlah mem ada 30`).then(() => CR4R.leaveGroup(chat.id)).then(() => CR4R.deleteChat(chat.id))
             // } else {
             //     CR4R.sendText(chat.groupMetadata.id, `Halo warga grup *${chat.contact.name}* terimakasih sudah menginvite bot ini, untuk melihat menu silahkan kirim *!help*`)
